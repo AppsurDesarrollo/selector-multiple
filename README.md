@@ -10,10 +10,6 @@ that supports path aliases and shadcn/ui components.
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue?logo=tailwindcss)
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=sersavan/shadcn-multi-select-component&type=Date)](https://star-history.com/#sersavan/shadcn-multi-select-component&Date)
-
 ## 🚀 Features
 
 - ✨ **Multiple Variants**: Default, secondary, destructive, and inverted styles
