@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "selector-multiple",
+  "homepage": "https://github.com/AppsurDesarrollo/selector-multiple",
+  "items": [
+    {
+      "name": "selector-multiple",
+      "type": "registry:component",
+      "title": "Selector múltiple con buscador",
+      "description": "Selector múltiple accesible con buscador (nombre y detalle, sin acentos), etiquetas fuera del botón con ✕ de 24 px y textos en castellano sustituibles. Adaptado de sersavan/shadcn-multi-select-component (MIT).",
+      "author": "sersavan (original, MIT) · AppsurDesarrollo (adaptación)",
+      "dependencies": ["cmdk", "radix-ui", "motion", "lucide-react"],
+      "registryDependencies": [
+        "https://animate-ui.com/r/icons-x.json",
+        "https://animate-ui.com/r/icons-check.json",
+        "https://animate-ui.com/r/icons-chevron-down.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/selector-multiple.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/components/selector-multiple.test.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "src/components/ui/popover.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "src/components/ui/command.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}
