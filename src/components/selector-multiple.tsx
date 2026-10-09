@@ -95,8 +95,6 @@ export type SelectorMultipleProps = {
     opciones: OpcionSelector[];
     valor: string[];
     alCambiar: (valor: string[]) => void;
-    /** Textos que se quieran cambiar; el resto sale de TEXTOS_SELECTOR. */
-    textos?: Partial<TextosSelector>;
     /** id del botón que abre la lista (para llevar el foco a él desde un error). */
     id?: string;
     /** Si se da, se añade un campo oculto `name[]` por cada valor elegido. */
@@ -111,6 +109,10 @@ export type SelectorMultipleProps = {
      * el texto del error, que lee al llegar al botón.
      */
     invalido?: boolean;
+    // Al final a propósito: así check-ingles no toma por texto de pantalla el
+    // código que sigue al tipo genérico (daba un falso «texto en inglés»).
+    /** Textos que se quieran cambiar; el resto sale de TEXTOS_SELECTOR. */
+    textos?: Partial<TextosSelector>;
 };
 
 const sinAcentos = (texto: string) =>
