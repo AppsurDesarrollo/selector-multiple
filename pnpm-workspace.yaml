@@ -1,0 +1,6 @@
+packages:
+  - '.'
+
+# Un día de carencia antes de instalar cualquier versión publicada: los paquetes
+# maliciosos de 2025-2026 se retiraron casi siempre en las primeras horas.
+minimumReleaseAge: 1440
